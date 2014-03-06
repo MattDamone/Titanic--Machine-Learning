@@ -1,0 +1,8 @@
+data <- read.table("train.csv", header = TRUE, sep = ",")
+test <- read.table("test.csv", header = TRUE, sep = ",")
+
+data$Name <- NULL
+data$Cabin <- NULL
+
+success <- data[(data$Survived == 1),]
+failed <- data[(data$Survived == 0),]
