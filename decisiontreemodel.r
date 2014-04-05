@@ -17,12 +17,3 @@ died$Name = NULL
 
 survived$PassengerId = NULL
 died$PassengerId = NULL
-
-# Age of surviving males
-I <- survived$Sex == 'female'
-temp <- survived[I,]
-summary(temp)
-
-I <- died$Sex == 'female'
-temp <- died[I,]
-summary(temp)
