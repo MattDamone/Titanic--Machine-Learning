@@ -7,3 +7,5 @@ http://statsguys.wordpress.com/
 Läs dessa:
 http://en.wikipedia.org/wiki/Data_analysis
 http://www.robertniles.com/stats/dataanly.shtml
+http://www.scb.se/sv_/Om-SCB/Oppna-data-API/
+http://eastswedenhack.se/anmalan
